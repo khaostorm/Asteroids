@@ -3,5 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/khaostorm/Asteroids.git",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "typescript": "3.2.2"
+  },
+  "scripts": {
+    "build": "./build.sh"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.0"
+  }
 }
